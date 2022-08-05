@@ -1,11 +1,11 @@
-nav {
-    background-color: pink;
+li {
+
+    padding: 10px;
+    list-style: none;
 }
 
-
-li {
-    display: inline;
-    padding: 10px;
+nav {
+    background-color: pink;
 }
 
 a {
