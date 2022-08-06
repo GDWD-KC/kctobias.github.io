@@ -1,0 +1,38 @@
+body {
+    height: 1500px;
+    position: relative;
+}
+
+
+li {
+    display: inline;
+    padding: 10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar1 {
+    background-color: pink;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+
+#navbar2 {
+    background-color: aqua;
+    position: relative;
+    top: 150px;
+    width: 100%;
+    padding: 10px;
+}
+
+#navbar3 {
+    background-color: green;
+    position: absolute;
+    bottom: 150px; 
+    width: 100%;
+    padding: 10px;
+}

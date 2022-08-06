@@ -11,3 +11,8 @@ nav {
 a {
     text-decoration: none;
 }
+
+a:hover {
+    background-color: blanchedalmond;
+}
+
