@@ -1,8 +1,6 @@
-
-
 ul {
     display: flex;
-    /* justify-content: center; */
+    padding: 10px;
 }
 
 li {
@@ -21,7 +19,6 @@ a:hover {
 
 nav {
     background-color: pink;
-    width: 100%;
     padding: 10px;
 }
 
@@ -30,10 +27,11 @@ nav {
 }
 
 
-/* 
+/* Media Query */
 @media only screen and (max-width: 768px) {
 
     ul {
         flex-direction: column;
     }
-} */
+
+}
