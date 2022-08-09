@@ -17,6 +17,7 @@ a:hover {
     padding: 10px;
 }
 
+
 nav {
     background-color: pink;
     padding: 10px;
@@ -28,10 +29,9 @@ nav {
 
 
 /* Media Query */
-@media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 768px) {
 
     ul {
         flex-direction: column;
     }
-
 }
