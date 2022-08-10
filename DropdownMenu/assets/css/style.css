@@ -13,6 +13,10 @@ ul {
     display: flex;
 }
 
+a {
+    text-decoration: none;
+}
+
 .dropdown-menu {
     position: absolute;
     width: 20%;
