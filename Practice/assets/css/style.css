@@ -1,44 +1,30 @@
-body {
-    background-image: url(https://png.pngtree.com/background/20210715/original/pngtree-optical-illusion-psychedelic-texture-background-picture-image_1306569.jpg);
-}
-
-h1 {
-    color: white;
-    background-color: red;
-    text-align: center;
-}
-
-/* Header */
-
-#header{
-    background-color: aqua;
-    height: 100px;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-}
-
-
-a:hover {
-    color: white;
-}
-
-/* Sections */
-
-.chunk {
-    background-color: chartreuse;
-    padding: 20px;
-}
-
-#image-div p {
-    color: blue;
-}
-
-
-
-
-/* Specificity */
-/* # refers to an id, which is a specific name of an element. Only one id per page */
-/* . refers to a class which is a group of elements. */
+.wrapper {
+    position: relative;
+  }
+  
+  .box1 {
+    position: relative;
+    z-index: 1;
+    border: dashed;
+    height: 8em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+  }
+  .box2 {
+    position: relative;
+    z-index: 3; /* put .gold-box above .green-box and .dashed-box */
+    background: purple;
+    width: 80%;
+    left: 60px;
+    top: 3em;
+  }
+  .box3 {
+    position: absolute;
+    z-index: 2; /* put .green-box above .dashed-box */
+    background: lightgreen;
+    width: 20%;
+    left: 65%;
+    top: -25px;
+    height: 7em;
+    opacity: 0.9;
+  }
