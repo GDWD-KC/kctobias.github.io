@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>facebook</h1>
+    <form>
+        <fieldset>
+            <h2>Create a new account</h2>
+            <p>It's quick and easy.</p>
+            <!-- Ask for first and last name -->
+            <input type="text" name="firstName" placeholder="First name" id="fN">
+            <input type="text" name="lastName" placeholder="Last name" id="lN">
+            <br>
+
+            <!-- Ask for number, email and password -->
+            <input type="text" name="number" placeholder="Mobile number or email" id="email">
+            <br>
+            <input type="text" name="password" placeholder="New Password" id="pw">
+            <br>
+
+            <!-- Ask for birthday -->
+            <label for="age">Birthday <i class="fa-solid fa-circle-question"></i></label>
+            <br>
+            <select name="age" value="month">
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+            </select>
+            <select name="age" value="day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <select name="age" value="year">
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+            </select>
+            <br>
+            
+            <!-- Ask for gender -->
+            <label for="age">Gender <i class="fa-solid fa-circle-question"></i></label>
+            <br>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other">
+            <br>
+
+            <!-- Sign Up Button -->
+           <a href="#" class="btn">Sign Up</a>
+            <br>
+        </fieldset>
+    </form>
+
+</body>
+</html>
