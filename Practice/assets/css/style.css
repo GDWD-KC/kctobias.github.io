@@ -6,7 +6,7 @@ form {
 }
 
 body {
-  background-image: url(../imgs/trees.jpeg) ;
+  background-image: url(../imgs/trees.jpg) ;
 
 }
 
@@ -17,7 +17,7 @@ body {
 input:valid {
   border: 2px solid rgb(22, 197, 72);
 }
-
+/* 
 div {
   width: 100px;
   height: 100px;
@@ -33,4 +33,4 @@ div {
   to {background-color: orange;
     height: 400px;
   }
-}
+} */
