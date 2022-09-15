@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Countdown</title>
+</head>
+<body>
+    <div id="hero">
+        <h1 id="countdown">loading countdown...</h1>
+    </div>
+    <script type="text/javascript">
+        // Calculation for Conversions from Milliseconds to unit of time left (integer)
+        function convertToDaysLeft(milliseconds) {
+            return Math.floor(milliseconds / (1000 * 60 * 60 * 24)
+            );
+        }
+        function convertToHoursLeft(milliseconds) {
+        return Math.floor(
+          (milliseconds % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            );
+        }
+
+      function convertToMinutesLeft(milliseconds) {
+        return Math.floor(
+          (milliseconds % (1000 * 60 * 60)) / (1000 * 60)
+            );
+        }
+
+      function convertToSecondsLeft(milliseconds) {
+        return Math.floor(
+          (milliseconds % (1000 * 60)) / 1000
+            );
+      }
+
+      function formatCountdownText(days, hours, minutes, seconds) {
+        return `${days}d ${hours}h ${minutes}m ${seconds}s left`;
+      }
+
+      // Countdown Initialization
+
+        // Set Variable for the end of the countdown (November 28th)
+        let deadline = new Date ("November 28, 2022 13:00:00");
+
+        // Set Variable to select the h1 that we named countdown
+        let countdown = document.getElementById("countdown")
+
+        // Get rid of loading countdown text we added in the html
+        countdown.innerHTML = "";
+
+        //Countdown Logic
+        function setCountdown() {
+            //Setting a variable to get the current date (today)
+            let now = new Date();
+
+            // Number of Milliseconds between deadline and now 
+            let timeLeft = deadline.getTime() - now.getTime();
+
+            //Store time converted variables in own veriable to use in final display
+            let daysLeft =convertToDaysLeft(timeLeft);
+            let hoursLeft = convertToHoursLeft(timeLeft);
+            let minutesLeft = convertToMinutesLeft(timeLeft);
+            let secondsLeft = convertToSecondsLeft(timeLeft);
+
+            countdown.innerHTML = formatCountdownText(daysLeft, hoursLeft, minutesLeft, secondsLeft);
+
+        }
+        // Since function only executes once, we have to continually update it in real time with setInterval therefore making our function get called every second
+
+        setInterval(setCountdown, 1000);
+
+    </script>
+</body>
+</html>

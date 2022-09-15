@@ -1,0 +1,15 @@
+#room {
+    border: 5px solid black;
+    position: relative;
+}
+
+#ball {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    border-radius: 50%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    position: relative;
+}
