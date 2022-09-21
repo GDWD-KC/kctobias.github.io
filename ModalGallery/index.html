@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    <title>Album Cover Gallery</title>
+</head>
+<body>
+    <!-- Lightbox Container -->
+    <div id="container">
+        <h2>Album Cover Gallery</h2>
+        <!-- Images (duplicate class name need for the 'for' loop) -->
+        <a href='#'><img class="images" src="assets/imgs/discovery.jpg"></a>
+        <a href='#'><img class="images" src="assets/imgs/melodysechochamber.jpg"></a>
+        <a href='#'><img class="images" src="assets/imgs/mgmt.jpg"></a>
+        <a href='#'><img class="images" src="assets/imgs/skiptracing.jpg"></a>
+    </div>
+        
+    <!-- Modal with X Button-->
+
+    <div class="modal" id="myModal">
+        <span id ="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+      
+    
+    <script src="assets/js/gallery.js"></script>
+</body>
+</html>
