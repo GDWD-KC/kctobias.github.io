@@ -30,6 +30,12 @@ function getResultText(computerPick, playerPick) {
 
   if (computerPick == ROCK && playerPick == SCISSORS) {
     return LOSE;
+  } else if (computerPick == ROCK && playerPick == PAPER) {
+    return WIN;
+  }
+
+  if(computerPick == SCISSORS && playerPick == PAPER) {
+    return LOSE;
   } else if (computerPick == SCISSORS && playerPick == ROCK) {
     return WIN;
   }
