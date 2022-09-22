@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>RPS Games 1</title>
+  </head>
+  <body>
+    <h1>Rock, Paper, Scissors!</h1>
+    <div id="game">
+      <h3 id="selections">
+        You picked <span id="yourPickText"></span>. I picked
+        <span id="myPickText"></span>.
+      </h3>
+      <h2 id="result"></h2>
+      <h4>Refresh the page to play again!</h4>
+    </div>
+    <script src="assets/js/logic.js"></script>
+    <script type="text/javascript">
+      /* Page-specific JavaScript Code goes here */
+
+      // Create variables to store references to the
+      // yourPickText, myPickText, and result elements by their ids
+      let yourPick = document.getElementById("yourPickText");
+      let myPick = document.getElementById("myPickText");
+
+      // Use the getRandomPick() function from your logic library
+      // to get random Rock Paper Scissors values for yourPick and myPick
+
+      yourPick.innerHTML = getRandomPick();
+      myPick.innerHTML = getRandomPick();
+
+      // Set yourPick and myPick values in their corresponding element innerHTML
+      // Also set the return value of getResultText(yourPick, myPick)
+      // in the result element's innerHTML
+    </script>
+  </body>
+</html>
