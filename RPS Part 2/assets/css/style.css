@@ -4,6 +4,13 @@ body {
   font-family: Verdana, sans-serif;
 }
 
+/*****************************************************************************
+  Game results CSS is found here
+*****************************************************************************/
+/*
+  Make sure the content inside the game element is centered, and doesn't
+  expand past the max width of 800px.
+*/
 #game {
   max-width: 800px;
   margin-top: 80px;
