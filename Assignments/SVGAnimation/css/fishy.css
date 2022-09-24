@@ -2,7 +2,6 @@ body {
   background-color: skyblue;
 }
 #fish {
-  color: gold;
   transition: 1.5s;
   transition-delay: 0.75s;
   transform-origin: 50% 50%;
@@ -11,5 +10,5 @@ body {
   margin: 100px auto;
 }
 #fish:hover {
-  transform: rotate3d(1, 0.5, 1.5, 90deg) scale3d(1.5, 1.5, 5);
+  transform: scale3d(1.5, 1.5, 5);
 }
