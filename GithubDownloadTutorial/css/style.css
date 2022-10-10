@@ -1,0 +1,18 @@
+body {
+    padding: 5%;
+}
+
+img {
+    border: 5px dashed lightgreen;
+    margin: 24px 0;
+    max-width: calc(100vw - 100px);
+    padding: 12px;
+  }
+
+li {
+    font-size: 19px;
+}
+
+header p {
+    display: inline;
+}
