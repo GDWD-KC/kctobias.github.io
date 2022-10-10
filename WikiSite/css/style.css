@@ -32,7 +32,7 @@ h4 {
   padding: 10px;
   float: left;
   clear: left;
-  width: 15%;
+  width: 9%;
 }
 
 #nav ul,
@@ -42,9 +42,8 @@ h4 {
 }
 
 #topic {
-  width: 80%;
-  float: right;
-  clear: right;
+  width: 85%;
+  float: left;
   padding: 20px;
   border: solid 1px lightblue;
 }
