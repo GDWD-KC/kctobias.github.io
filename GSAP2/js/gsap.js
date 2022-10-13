@@ -3,7 +3,7 @@
         gsap.from("#gear_outer",{
             transformOrigin:"50% 50%",
             duration: 2,
-            rotation: -4400
+            rotation: -4400,
         });
 
         // Make a gsap method to have the title text start from above the clipping circle.
