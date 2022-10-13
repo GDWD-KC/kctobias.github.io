@@ -1,0 +1,22 @@
+h1 {
+    color: rgb(230, 0, 255);
+    background-color: pink;
+}
+
+p {
+    color: blue;
+    text-align: center;
+}
+
+#container1 {
+    background-color: lightcoral;
+    border: black 5px dotted;
+}
+
+#container2{
+    background-color: burlywood;
+    padding: 10px;
+    margin: 20px;
+}
+
+
