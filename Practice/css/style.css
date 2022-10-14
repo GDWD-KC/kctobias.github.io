@@ -1,17 +1,36 @@
-div {
-    background-color: red;
+header {
+    float: left;
+    background-color: lightblue;
+    width: 95%;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav {
+    float: left;
+    background-color: blueviolet;
+    width: 15%;
+    height: 600px;
+    margin: 10px;
+    padding: 10px;
 }
 
 
-.blue {
-    border: solid 5px blue;
-    padding: 15px;
+section {
+    float: left;
+    background-color: pink;
+    height: 600px;
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
 }
 
-#section1 {
-    color: purple;
-}
-
-#section2 {
-    color: white;
+footer {
+    float: left;
+    background-color: peru;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 95%;
 }
