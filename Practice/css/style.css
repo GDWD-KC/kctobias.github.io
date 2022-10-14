@@ -1,22 +1,17 @@
-h1 {
-    color: rgb(230, 0, 255);
-    background-color: pink;
-}
-
-p {
-    color: blue;
-    text-align: center;
-}
-
-#container1 {
-    background-color: lightcoral;
-    border: black 5px dotted;
-}
-
-#container2{
-    background-color: burlywood;
-    padding: 10px;
-    margin: 20px;
+div {
+    background-color: red;
 }
 
 
+.blue {
+    border: solid 5px blue;
+    padding: 15px;
+}
+
+#section1 {
+    color: purple;
+}
+
+#section2 {
+    color: white;
+}
