@@ -1,9 +1,61 @@
+body {
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+nav {
+    background-color: salmon;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    letter-spacing: 5px;
+}
 
 a {
     text-decoration: none;
 }
 
+
 a:hover {
-    text-decoration: underline;
+    background-color: rgb(221, 105, 164);
+    padding: 11px;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+a:link {
+    /* color: white; */
+    font-weight: 800;
+}
+
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px;
+    border: 2px solid magenta;
+    position: absolute;
+    opacity: 0;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+}
+

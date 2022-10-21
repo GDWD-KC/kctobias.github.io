@@ -17,6 +17,12 @@ fieldset {
     text-align: center;
     margin: 2em;
 }
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 input, select {
     padding: 10px;
     margin: 5px;
