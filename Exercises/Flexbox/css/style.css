@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    /*   this lets us use flex properties */
+    flex-direction: column;
+  /*  this stacks our containers vertically */
+    justify-content: center;
+    align-items: center;
+  /*   this centers our first container */
+  /*   remember parent to child rel. bdoy is the parent of containers */
+  }
+  
+  
+  /* grey container */
+  #container1{
+    background-color: #eee;
+    width: 66%;
+    height: 500px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+  /*   centers both boxes horizontally inside the grey cont. */
+    align-items: center;
+  /*   centers both boxes vertically */
+  }
+  
+  .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  /*   the 3 lines above enable flexbox and then horiz. and vert. center our text content, for all the nested colored boxes */
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+  }
+  
+  .box1{
+    background-color: red;
+  }
+  
+  .box2{
+    background-color: orange;
+  }
+  
+  #container2{
+    margin-top: 20px;
+    background-color: #bbb;
+    width: 66%;
+    height: 500px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: flex-end;
+  /*   horizontally aligns content with the end of the flex container */
+    align-items: flex-end;
+    /*   vertically aligns content with the end of the flex container */
+  }
+  
+  .box3{
+    background-color: yellow;
+  }
+  
+  .box4{
+    background-color: green;
+  }
+  
+  #container3{
+    margin-top: 20px;
+    background-color: #000;
+    width: 66%;
+    height: 500px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .box5{
+    background-color: blue;
+    order:0;
+  }
+  
+  .box6{
+    background-color: purple;
+    order:4;
+  }
+  
+  .box7{
+    background-color: violet;
+    order:2;
+  }
+  
+  .box8{
+    background-color: brown;
+    order:3;
+  }

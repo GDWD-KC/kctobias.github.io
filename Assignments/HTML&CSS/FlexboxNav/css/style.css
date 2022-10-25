@@ -33,21 +33,26 @@ nav {
     border: 2px purple solid;
 
 }
-
+ 
 #home {
     margin-right: auto;
 }
 
+.fa-solid{
+    color: white;
+}
+
 
  /* Media Query */
- @media only screen and (max-width: 768px) {
+ @media (max-width: 768px) {
 
     ul {
         flex-direction: column;
     }
+
+    body {
+        background-color: aqua;
+    }
 } 
 
 
-.fa-solid{
-    color: white;
-}

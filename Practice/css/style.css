@@ -1,7 +1,7 @@
 body {
-    background-color: antiquewhite;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 nav {
     background-color: salmon;
@@ -11,7 +11,6 @@ nav {
 h1 {
     text-align: center;
 }
-
 
 #main-nav {
     display: flex;
