@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 body {
-    font-size: 20px;
-    margin: 50px;
+    font-size: 25px;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -14,6 +13,7 @@ table {
     text-align: left;
     justify-content: center;
     align-items: center;
+    margin: 10em;
 }
 
 
