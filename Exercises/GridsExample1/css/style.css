@@ -1,0 +1,30 @@
+#myGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas: 
+    "sideNav myHeader myHeader"
+    "sideNav content content"
+    "sideNav footer footer";
+}
+
+
+header {
+    background-color: lightgreen;
+    grid-area: myHeader;
+}
+
+nav {
+    background-color: aqua;
+    grid-area: sideNav;
+}
+
+main {
+    background-color: purple;
+    grid-area: content;
+}
+
+footer {
+    background-color: yellow;
+    grid-area: footer;
+}

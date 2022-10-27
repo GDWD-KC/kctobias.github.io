@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body {
+  display: grid;
+  grid-template-columns: 10% 4fr;
+  grid-template-rows: 10% 80% 10%;
+  gap: 10px;
+  grid-template-areas: 
+  "myHeader myHeader myHeader myHeader myHeader"
+  "sideNav content content content content "
+  "sideNav footer footer footer footer";
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+  background-color: lightgreen;
+  grid-area: myHeader;
+}
+
+nav {
+  background-color: aqua;
+  grid-area: sideNav;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-color: purple;
+  grid-area: content;
+}
+
+footer {
+  background-color: yellow;
+  grid-area: footer;
+}
+
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  padding: 30px;
+}
+
+#cat1 {
+  align-self: flex-start;
+}
+
+img {
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+p {
+  color: white;
+}
