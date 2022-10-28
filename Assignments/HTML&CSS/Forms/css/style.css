@@ -16,6 +16,7 @@ fieldset {
     background-color: #fff;
     text-align: center;
     margin: 2em;
+    border-radius: 5px;
 }
 
 form {
@@ -23,6 +24,7 @@ form {
     justify-content: center;
     align-items: center;
 }
+
 input, select {
     padding: 10px;
     margin: 5px;

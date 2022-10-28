@@ -1,27 +1,32 @@
-table {
-    background-color: rgba(116, 255, 255, 0.432);
-    border: 1px solid black;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+body {
+    background-color: rgb(183, 226, 211);
+    font-family: 'Poppins', sans-serif;
 }
 
-th {
-    padding: 5px;
-    border: 1px solid blue;
+input[type=submit] {
+    border: none;
+    background-color: lightgreen;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
 }
 
-tr {
-    text-align: left;
+input[type=submit]:hover {
+    background-color: rgb(15, 137, 15);
 }
 
-td{
-    border: 1px solid blue;
-    padding: 35px 45px 35px 45px;
-    text-align: left;
+input, textarea {
+    display: block;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
 }
 
-tbody {
-    text-align: left;
+
+fieldset {
+    border: 2px rgb(234, 163, 22) solid;
 }
 
-td:hover {
-    background-color: lightblue;
-}
+
+
