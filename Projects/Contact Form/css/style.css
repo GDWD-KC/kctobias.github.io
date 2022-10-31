@@ -67,9 +67,6 @@ button:hover {
     border: 2px solid green;
 }
 
-#eAddress:required, #fullName:required, #writeMessage:required {
-    border: 2px solid gray;
-}
 
 #eAddress:invalid, #fullName:invalid, #writeMessage:invalid {
     border: 2px solid rgb(227, 113, 113);
