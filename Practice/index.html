@@ -8,84 +8,43 @@
   <title>Practice</title>
 </head>
 <body>
-   
-  <table>
-    <!-- Table Header -->
-    <thead>
-      <h1>October 2022</h1>
-      <tr>
-          <th>Sun</th>
-          <th>Mon</th>
-          <th>Tue</th>
-          <th>Wed</th>
-          <th>Thu</th>
-          <th>Fri</th>
-          <th>Sat</th>
-      </tr>
-    </thead>
-    <!-- Table Body -->
-    <tbody>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>1</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>3</td>
-          <td>4</td>
-          <td>5</td>
-          <td>6</td>
-          <td>7</td>
-          <td>8</td>
-    
-        </tr>
-        <tr>
-          <td>9</td>
-          <td>10</td>
-          <td>11</td>
-          <td>12</td>
-          <td>13</td>
-          <td>14</td>
-          <td>15</td>
-            
-        </tr>
-        <tr>
-          <td>16</td>
-          <td>17</td>
-          <td>18</td>
-          <td>19</td>
-          <td>20</td>
-          <td>21</td>
-          <td>22</td>
-            
-        </tr>
-        <tr>
-          <td>23</td>
-          <td>24</td>
-          <td>25</td>
-          <td>26</td>
-          <td>27</td>
-          <td>28</td>
-          <td>29</td>
-         
-        </tr>
-        <tr>
-          <td>30</td>
-          <td>31</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-     
-        </tr>
-    </tbody>
-</table>
+<!-- Form -->
+  <form>
+    <!-- Personal Information -->
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="firstName">First Name:</label>
+      <input type="text" name="firstName" id="firstName" placeholder="First Name" required minlength="3" maxlength="25">
+      <label for="lasttName">Last Name:</label>
+      <input type="text" name="lasttName" id="lastName" placeholder="Last Name" required minlength="3" maxlength="25">
+      <label for="lasttName">Email:</label>
+      <input type="email" name="email" id="eMail" placeholder="Email" required minlength="6" maxlength="40">
+  </fieldset>
+    <!-- Credit Card Info -->
+    <br>
+    <br>
+    <fieldset>
+      <legend>Credit Card Information</legend>
+      <label for="ccnumber">Credit Card Number</label>
+      <input type="number" name="ccnumber" id="ccnumber" required>
+      <label for="expiration">Expiration</label>
+      <input type="date" name="expiration" id="expiration">
+  </fieldset>
+  <br>
+  <br>
+  <fieldset>
+    <legend>Delivery Info</legend>
+    <label for="info"></label>
+    <textarea name="info" id="info" cols="40" rows="20" placeholder="Type delivery info here"></textarea>
+  </fieldset>
+  <br>
+    <input type="submit" value="Submit">
+  </form>
+
+
+
+
+
 
 
 
