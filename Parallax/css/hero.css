@@ -1,0 +1,16 @@
+.site-hero {
+    height: 80vh;
+    background-image: url("../assets/branding/wood_bkgrnd.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    color:aliceblue;
+}
+
+par

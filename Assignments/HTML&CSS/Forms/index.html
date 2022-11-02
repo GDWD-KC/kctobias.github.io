@@ -24,10 +24,10 @@
             <br>
             <input type="text" name="password" placeholder="New Password" id="pw">
             <br>
+ 
 
             <!-- Ask for birthday -->
-            <label for="age">Birthday <i class="fa-solid fa-circle-question"></i></label>
-            <br>
+            <h5>Birthday <i class="fa-solid fa-circle-question"></i></h5>
             <select name="age" value="month">
                 <option value="January">January</option>
                 <option value="February">February</option>
@@ -46,18 +46,26 @@
             <br>
             
             <!-- Ask for gender -->
-            <label for="age">Gender <i class="fa-solid fa-circle-question"></i></label>
+            <h5>Gender <i class="fa-solid fa-circle-question"></i></h5>
+       
+            <div class='radio'>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+            </div>
+            <div class='radio'>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+            </div>
+            <div class='radio'>
+                <label for="other">Other</label>
+                <input type="radio" name="gender" id="other">
+            </div>
             <br>
-            <label for="female">Female</label>
-            <input type="radio" name="gender" id="female">
-            <label for="male">Male</label>
-            <input type="radio" name="gender" id="male">
-            <label for="other">Other</label>
-            <input type="radio" name="gender" id="other">
             <br>
 
             <!-- Sign Up Button -->
-           <a href="#" class="btn">Sign Up</a>
+            <input type='submit' name="submit" id='btn' value='Sign Up'>
+           <!-- <a href="#" class="btn">Sign Up</a> -->
             <br>
         </fieldset>
     </form>
