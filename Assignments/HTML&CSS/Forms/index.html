@@ -15,30 +15,30 @@
             <h2>Create a new account</h2>
             <p>It's quick and easy.</p>
             <!-- Ask for first and last name -->
-            <input type="text" name="firstName" placeholder="First name" id="fN">
-            <input type="text" name="lastName" placeholder="Last name" id="lN">
+            <input type="text" name="firstName" placeholder="First name" id="fN" required minlength="1" maxlength="30">
+            <input type="text" name="lastName" placeholder="Last name" id="lN" required minlength="1" maxlength="30">
             <br>
 
             <!-- Ask for number, email and password -->
-            <input type="text" name="number" placeholder="Mobile number or email" id="email">
+            <input type="email" name="number" placeholder="Mobile number or email" id="email" required minlength="1" maxlength='30'>
             <br>
-            <input type="text" name="password" placeholder="New Password" id="pw">
+            <input type="password" name="password" placeholder="New Password" id="pw" required minlength="1" maxlength="10">
             <br>
  
 
             <!-- Ask for birthday -->
             <h5>Birthday <i class="fa-solid fa-circle-question"></i></h5>
-            <select name="age" value="month">
+            <select name="age" value="month" required>
                 <option value="January">January</option>
                 <option value="February">February</option>
                 <option value="March">March</option>
             </select>
-            <select name="age" value="day">
+            <select name="age" value="day" required>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
             </select>
-            <select name="age" value="year">
+            <select name="age" value="year" required>
                 <option value="1998">1998</option>
                 <option value="1999">1999</option>
                 <option value="2000">2000</option>

@@ -76,3 +76,12 @@ label {
 h5 {
     margin-top: 10px;
 }
+
+
+input:valid, select {
+    border: solid 2px green;
+}
+
+input:invalid, select {
+    border: solid 2px red;
+}
