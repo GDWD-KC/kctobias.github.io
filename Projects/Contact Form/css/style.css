@@ -60,6 +60,7 @@ button {
   padding: 14px 23px;
   border-radius: 5px;
   border: none;
+  width: 20%;
   margin-left: 13px;
 }
 
@@ -69,18 +70,14 @@ button:hover {
 
 #eAddress:valid,
 #fullName:valid,
-#writeMessage:valid {
+#writeMessage:valid,
+select {
   border: 2px solid green;
-}
-
-#eAddress:required,
-#fullName:required,
-#writeMessage:required {
-  border: 2px solid gray;
 }
 
 #eAddress:invalid,
 #fullName:invalid,
-#writeMessage:invalid {
+#writeMessage:invalid,
+select {
   border: 2px solid rgb(227, 113, 113);
 }
