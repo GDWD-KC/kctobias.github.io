@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+p {
+    text-align: center;
+}
+
+
+.carousel-caption {
+    padding: 10px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.298);
+   
+}
+.carousel-caption h5 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: "Bebas Neue";
+    letter-spacing: 2px;
+    text-shadow: #e0e0e0 1px 1px 0;
+    
+}
+
