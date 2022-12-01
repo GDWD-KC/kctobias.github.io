@@ -1,1 +1,5 @@
-document.getElementById("square1");
+
+
+function bgChange(bg) {
+    document.body.style.background = bg;
+}
