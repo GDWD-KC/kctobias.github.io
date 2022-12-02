@@ -1,21 +1,3 @@
-#square1 {
-    background-color: aquamarine;
-    width: 100px;
-    height: 100px;
-}
-
-#square2 {
-    background-color: plum;
-    width: 100px;
-    height: 100px;
-}
-
-#square3 {
-    background-color: lightcoral;
-    width: 100px;
-    height: 100px;
-}
-
 main {
     display: flex;
     justify-content: space-between;
