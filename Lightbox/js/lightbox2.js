@@ -12,9 +12,15 @@ function openLightbox(){
     lightbox.src = this.src;
 }
 
-let coffeeImage = document.getElementById('coffeeImage1');
-//When you click image, reference openLightBox function
-coffeeImage.onclick = openLightbox;
+
+//Grab all images
+let galleryImages = document.getElementsByClassName('galleryImage');
+//Create loop to iterate through all images infinitely
+for (let i = 0; i < galleryImages.length; i++) {
+    let galleryImage = galleryImages[i];
+    galleryImage.onclick = openLightbox;
+}
+
 
 //Make Function to make closer clickable
 function closeLightbox(){
@@ -22,11 +28,14 @@ function closeLightbox(){
     lightbox.src = "";
 }
 
-lightboxCloser.onclick = closeLightbox;
-lightboxBackground.onclick = closeLightbox;
+//Grab all closers from DOM
+let closers = document.getElementsByClassName('closer');
 
-
-
+//Create loop for closers
+for (let i = 0; i < closers.length; i++) {
+    let closer = closers[i];
+    closer.onclick = closeLightbox;
+}
 
 
 
