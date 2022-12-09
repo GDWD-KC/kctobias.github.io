@@ -1,0 +1,38 @@
+body {
+    background-color: salmon;
+    color: white;
+}
+
+.animation-container {
+    width: 85%;
+    display: flex;
+    margin: 10% auto;
+}
+
+.chucked {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin-top: 70px;
+    border-radius: 5%;
+}
+
+.column {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box {
+    width: 70%;
+}
+
+.text-box h2 {
+    font-size: 5rem;
+}
+
+.explore {
+    font-size: 6rem;
+}
