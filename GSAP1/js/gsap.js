@@ -7,5 +7,14 @@ gsap.from(".chucked", {
     x: -500,
     y: -500,
 });
-  
 
+
+//Text animation
+gsap.from(".headline", {
+    duration: 2.5,
+    stagger: 0.3,
+    opacity: 0,
+    y: 300
+})
+
+  
