@@ -37,12 +37,12 @@ a {
     padding-left: 0;
     border: 1px solid salmon;
     border-radius: 5px;
-    opacity: 0;
+    display: none;
     transition: 0.5s;
 }
 
 .dropdown:hover .dropdown-menu {
-    opacity: 1;
+    display: block;
 }
 
 .dropdown a:hover {
