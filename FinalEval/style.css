@@ -82,7 +82,7 @@ body{
   
   header #emailform img{
     margin: auto;
-    width: 50%;
+    width: 40%;
   }
   
   header section .blue-btn{
@@ -176,8 +176,12 @@ body{
   width: 200px;
 }
 
-#new, #coming-soon {
+.content {
   display: none;
+}
+
+.active {
+  display: block;
 }
 
 .image-content {
@@ -226,6 +230,10 @@ footer p {
 
   ul {
       flex-direction: column;
+  }
+
+  header #emailform img {
+    width: 80%;
   }
 
 } 
