@@ -80,7 +80,7 @@ body{
       transform: translateX(-50%);
   }
   
-  header section img{
+  header #emailform img{
     margin: auto;
     width: 50%;
   }
