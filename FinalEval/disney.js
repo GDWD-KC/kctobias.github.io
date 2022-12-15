@@ -3,12 +3,6 @@ const shows = document.getElementById("shows");
 const tabs = document.querySelectorAll(".tab-btn");
 const content = document.querySelectorAll(".content");
 
-//Get variables for each tab
-
-//Add on click event listener to cycle through content by tab click
-
-//Refactored Way
-
 shows.addEventListener("click", function (e) {
   const id = e.target.dataset.id;
   if (id) {
@@ -27,3 +21,15 @@ shows.addEventListener("click", function (e) {
     element.classList.add("active");
   }
 });
+//On scroll nav event
+// window.onscroll = function () {
+//   scrollFunction();
+// };
+
+// function scrollFunction() {
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//     document.getElementById("navbar").style.top = "0";
+//   } else {
+//     document.getElementById("navbar").style.top = "-50px";
+//   }
+// }
