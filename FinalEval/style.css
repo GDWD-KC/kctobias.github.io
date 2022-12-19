@@ -20,7 +20,7 @@ footer svg {
 
 header {
   background-image: url("images/background.jpeg");
-  background-position: 57%;
+  background-position: 60%;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -61,7 +61,7 @@ nav #login:hover {
 nav #signup {
   background: #0063e5;
   border: 1px solid #0063e5;
-  right: 9%;
+  right: 7%;
 }
 
 nav #signup:hover {
@@ -88,7 +88,7 @@ header #emailform {
 
 header #emailform img {
   margin: auto;
-  width: 80%;
+  width: 50%;
 }
 
 header section .blue-btn {
@@ -115,7 +115,7 @@ header #emailform input {
   border: 1px solid #31343e;
   border-radius: 4px;
   background-color: #31343e;
-  width: 30%;
+  width: 40%;
   margin-left: 0;
   letter-spacing: 0.5px;
 }
@@ -153,7 +153,7 @@ header section p span {
 }
 
 #shows {
-  margin-top: 10%;
+  margin-top: 5%;
   /* Added margin for smaller screens */
 }
 
@@ -162,7 +162,7 @@ header section p span {
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  gap: 50px;
+  gap: 30px;
   text-align: center;
 }
 
