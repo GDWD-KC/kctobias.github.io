@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Responsive Navbar | Menu</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <ul>
+        <!-- Logo -->
+        <li id="homelogo">
+          <a href="index.html">
+            <h2>
+              Lou's Cafe
+              <img
+                id="logo"
+                src="assets/images/croissant.png"
+                alt="croissant.png"
+              />
+            </h2>
+          </a>
+        </li>
+        <!-- Home -->
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <!-- Dropdown for Menu -->
+        <li class="dropdown">
+          <a href="menu.html">Menu</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Patisserie</a></li>
+            <li><a href="#">Coffee & Espresso</a></li>
+            <li><a href="#">Breakfast Sandwiches</a></li>
+          </ul>
+        </li>
+        <!-- About -->
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="menu">
+      <h1>Menu</h1>
+      <div id="Patisserie">
+        <h2>Patisserie</h2>
+        <img src="assets/images/croissants.jpg" alt="" srcset="" />
+      </div>
+      <div id="Coffee & Espresso">
+        <h2>Coffee & Espresso</h2>
+        <img src="assets/images/espresso.jpg" alt="" srcset="" />
+      </div>
+      <div id="Breakfast Sandwiches">
+        <h2>Breakfast Sandwiches</h2>
+        <img src="assets/images/eclair2.jpg" alt="" srcset="" />
+      </div>
+    </section>
+  </body>
+</html>
