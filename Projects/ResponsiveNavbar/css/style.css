@@ -2,15 +2,18 @@
 
 body {
   margin: 0px;
+  background-color: white;
+  font-family: "Lobster", cursive;
 }
 
 nav {
   background-color: #fec34c;
   padding: 5px;
-  font-family: "Lobster", cursive;
   font-weight: 600;
   border-radius: 2px;
   font-size: 20px;
+  position: sticky;
+  top: 0;
 }
 
 li {
@@ -38,19 +41,34 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.imgs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.imgs img {
+  margin: 10px;
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+}
+
 .dropdown-menu {
   position: absolute;
-  width: 20%;
+  min-width: 20%;
   margin: 10px;
-  background-color: linen;
+  background-color: antiquewhite;
   flex-direction: column;
   justify-content: flex-end;
   text-align: left;
   padding-left: 0;
-  border: 1px solid #ebd426;
+  border: 1px solid #fec34c;
   border-radius: 5px;
   display: none;
   transition: 0.5s;
+  z-index: 99;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -61,12 +79,34 @@ nav a:hover {
   cursor: pointer;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+section p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 30px;
+}
+
+#about {
+  text-align: center;
+}
+
+#about img {
+  width: 40%;
+  margin: 10px;
+}
+
 .fa-solid {
-  color: white;
+  color: brown;
 }
 
 .fa-solid:hover {
-  color: #d1bacb;
+  color: #fec34c;
 }
 
 #logo {
@@ -81,12 +121,20 @@ nav a:hover {
   margin: 0px;
 }
 
-section img {
-  width: 20%;
+section h1 {
+  font-size: 30px;
 }
 
 @media only screen and (max-width: 768px) {
   ul {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgs img,
+  #about img {
+    width: 100%;
   }
 }
