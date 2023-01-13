@@ -11,11 +11,10 @@
 body {
   margin: 0;
 }
-
+ 
 h1,
 h2,
-h3,
-a {
+h3{
   font-family: 'Secular One', sans-serif;
 }
 
@@ -34,20 +33,6 @@ h4 {
   margin-top: 4px;
 }
 
-a {
-  text-decoration: none;
-}
-
-nav,
-nav a,
-footer a {
-  color: indigo;
-}
-
-nav a:hover,
-footer a:hover {
-  text-decoration: underline;
-}
 
 /****************************************************************************
   Grid styles
@@ -77,109 +62,7 @@ nav {
 #twoCards {
   grid-area: twoCardsArea;
 }
-footer {
-  grid-area: footerArea;
-}
 
-
-/****************************************************************************
-  Nav/Footer styles
-****************************************************************************/
-nav {
-  align-items: center;
-  display: flex;
-  margin: 0 24px;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-}
-
-#navLinks {
-  justify-content: center;
-}
-
-#navLinks,
-.socialMedia {
-  display: flex;
-  list-style-type: none;
-}
-
-#navLinks li,
-.socialMedia li {
-  padding: 0 4px;
-}
-
-nav .socialMedia {
-  justify-content: flex-end;
-  padding-left: 0;
-}
-
-.socialMedia i {
-  font-size: 20px;
-}
-
-nav,
-nav a,
-footer a {
-  color: indigo;
-}
-
-nav a:hover,
-footer a:hover {
-  text-decoration: underline;
-}
-
-nav ul,
-nav h2 {
-  flex: 1;
-  margin: 0;
-  padding: 0;
-}
-
-
-
-/****************************************************************************
-  Link styles
-****************************************************************************/
-.card a {
-  background-color: white;
-  color: indigo;
-  border: 2px solid indigo;
-  border-radius: 24px;
-  display: inline-block;
-  padding: 8px 16px;
-  margin-top: 12px;
-  min-width: 150px;
-  transition: transform 0.25s;
-}
-
-.card a:hover {
-  transform: scale(1.1);
-}
-
-/****************************************************************************
-  Card styles
-****************************************************************************/
-#threeCards{
-  display: flex;
-}
-
-.card {
-  border: 2px solid indigo;
-  color: indigo;
-  margin: 48px 24px 24px;
-  padding: 12px 12px 24px;
-  text-align: center;
-  box-shadow: 4px 4px 8px 0px grey;
-  flex: 1;
-}
-
-.card p {
-  font-size: 18px;
-  min-height: 100px;
-}
 
 /****************************************************************************
   Gallery styles
