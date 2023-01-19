@@ -52,7 +52,7 @@ nav {
   }
 
   nav {
-    background-color: black;
+    display: none;
   }
 
   a {
