@@ -1,5 +1,6 @@
-
-
+body {
+    margin: 0;
+}
 
 #myGrid {
     display: grid;
@@ -7,8 +8,9 @@
     grid-auto-rows: minmax(50px, auto);
     grid-template-areas: 
     "sideNav myHeader myHeader"
-    "sideNav content content"
+    "sideNav someContent someContent"
     "sideNav footer footer";
+    height: 100vh;
 }
 
 
@@ -24,7 +26,7 @@ nav {
 
 main {
     background-color: purple;
-    grid-area: content;
+    grid-area: someContent;
 }
 
 footer {

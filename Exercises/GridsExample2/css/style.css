@@ -19,4 +19,5 @@
     padding: 36px;
     grid-column: 2 / 4;
     grid-row: 2;
+    height: 100vh;
   }
