@@ -8,7 +8,6 @@ body {
 
 table {
     display: flex;
-    border-radius: 5px;
     border-collapse: collapse;
     text-align: left;
     justify-content: center;

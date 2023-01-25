@@ -11,6 +11,17 @@
 body {
   margin: 0;
 }
+
+nav,
+nav a,
+footer a {
+  color: indigo;
+}
+
+nav a:hover,
+footer a:hover {
+  text-decoration: underline;
+}
  
 h1,
 h2,
@@ -40,28 +51,79 @@ h4 {
 #siteGrid {
   display: grid;
   grid-template-columns: 1fr 800px 1fr;
-  grid-auto-rows: minmax(100px, auto);
+  /* grid-auto-rows: minmax(100px, auto); */
   grid-template-areas:
-    "navArea navArea navArea"
-    "heroArea heroArea heroArea"
-    ". threeCardsArea ."
-    ". galleryArea ."
-    ". twoCardsArea ."
-    "footerArea footerArea footerArea";
+     "navArea navArea navArea"
+    ". galleryArea .";
 }
-nav {
+
+ nav {
   grid-area: navArea;
 }
 
-#threeCards {
-  grid-area: threeCardsArea;
-}
 #gallery {
   grid-area: galleryArea;
 }
-#twoCards {
-  grid-area: twoCardsArea;
+
+/* ****************************************************************************
+  Nav/Footer styles
+****************************************************************************/ */
+nav {
+  align-items: center;
+  display: flex;
+  margin: 0 24px;
 }
+
+a {
+  font-family: 'Secular One', sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+#navLinks {
+  justify-content: center;
+}
+
+#navLinks {
+  display: flex;
+  list-style-type: none;
+}
+
+#navLinks li {
+  padding: 0 4px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+nav,
+nav a,
+footer a {
+  color: indigo;
+}
+
+nav a:hover,
+footer a:hover {
+  text-decoration: underline;
+}
+
+nav ul,
+nav h2 {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/****************************************************************************
+  Link styles
+****************************************************************************/
 
 
 /****************************************************************************
@@ -113,16 +175,10 @@ nav {
   #siteGrid {
     grid-template-columns: 1fr;
     grid-template-areas:
-      "navArea"
-      "heroArea"
-      "threeCardsArea"
+       "navArea"
       "galleryArea"
-      "twoCardsArea"
-      "footerArea";
   }
-  nav,
-  #threeCards,
-  #twoCards {
+  nav {
     flex-direction: column;
   }
 
