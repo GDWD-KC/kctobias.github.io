@@ -1,87 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 body {
-    background-color: #f2f2f2;
-    font-family: 'Open Sans', sans-serif;
+  background-color: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, p {
-    text-align: center;
-}
-h1 {
-    color: blue;
-}
-fieldset {
-    background-color: #fff;
-    text-align: center;
-    margin: 2em;
-    border-radius: 5px;
-}
-
-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-input {
-    padding: 10px;
-    margin: 5px;
-}
-
-select {
-    width: 145px;
-    padding: 10px;
-    margin: 5px;
-}
-
-#fN, #lN {
-    width: 200px;
-}
-#email, #pw {
-    width: 438px;
-}
-
-a {
-    text-decoration: none;
-}
-
-#btn {
-    padding: 10px 40px;
-    display: inline-block;
-    margin: 15px;
-    border:none;
-    border-radius: 10px;
-    background-color: rgb(11, 152, 28);
-    color: #fff;
-}
-
-#btn:hover {
-    background-color: rgb(9, 123, 23);
-}
-
-label {
-    font-size: 14px;
-}
-
-.radio {
-    display: inline;
-    border: 1px gray solid;
-    border-radius: 2px;
-    padding: 6px;
-    margin: 10px;
+h1,
+h2,
+p {
+  text-align: center;
 }
 
 h5 {
-    margin-top: 10px;
+  margin: 10px 0px;
 }
 
-
-input:valid, select {
-    border: solid 2px green;
+h1 {
+  color: blue;
+}
+fieldset {
+  background-color: #fff;
+  text-align: center;
+  margin: 2em;
+  border-radius: 5px;
+  width: 70%;
+  padding: 0;
 }
 
-input:invalid, select {
-    border: solid 2px red;
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs {
+  padding: 10px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+select {
+  width: 30%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.name-inputs input {
+  width: 42%;
+}
+
+#email,
+#pw {
+  width: 91%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#btn {
+  padding: 10px 40px;
+  display: inline-block;
+  margin: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(11, 152, 28);
+  color: #fff;
+}
+
+#btn:hover {
+  background-color: rgb(9, 123, 23);
+}
+
+label {
+  font-size: 14px;
+}
+
+.radio {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px gray solid;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 0px 10px;
+  width: 30%;
+  padding-left: 15px;
+}
+
+input:valid,
+select {
+  border: solid 1px green;
+}
+
+input:invalid,
+select {
+  border: solid 1px red;
+}
+
+.label {
+  display: flex;
+  padding: 0px 10px;
+}
+
+#radio-btns {
+  display: flex;
+  justify-content: space-between;
 }
