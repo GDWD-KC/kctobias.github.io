@@ -15,104 +15,112 @@
     <title>Forms</title>
   </head>
   <body>
-    <h1>facebook</h1>
-    <form>
-      <fieldset>
-        <h2>Create a new account</h2>
-        <p>It's quick and easy.</p>
-        <hr />
-        <!-- Ask for first and last name -->
-        <div class="inputs">
-          <div class="name-inputs">
-            <input
-              type="text"
-              name="firstName"
-              placeholder="First name"
-              id="fN"
-              required
-              minlength="1"
-              maxlength="30"
-            />
-            <input
-              type="text"
-              name="lastName"
-              placeholder="Last name"
-              id="lN"
-              required
-              minlength="1"
-              maxlength="30"
-            />
-          </div>
-
-          <!-- Ask for number, email and password -->
-          <input
-            type="email"
-            name="number"
-            placeholder="Mobile number or email"
-            id="email"
-            required
-            minlength="1"
-            maxlength="30"
-          />
-          <br />
-          <input
-            type="password"
-            name="password"
-            placeholder="New Password"
-            id="pw"
-            required
-            minlength="1"
-            maxlength="10"
-          />
-          <br />
-
-          <!-- Ask for birthday -->
-          <div class="label">
-            <h5>Birthday <i class="fa-solid fa-circle-question"></i></h5>
-          </div>
-          <select name="age" value="month" required>
-            <option value="January">January</option>
-            <option value="February">February</option>
-            <option value="March">March</option>
-          </select>
-          <select name="age" value="day" required>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-          </select>
-          <select name="age" value="year" required>
-            <option value="1998">1998</option>
-            <option value="1999">1999</option>
-            <option value="2000">2000</option>
-          </select>
-          <br />
-
-          <!-- Ask for gender -->
-          <div class="label">
-            <h5>Gender <i class="fa-solid fa-circle-question"></i></h5>
-          </div>
-          <div id="radio-btns">
-            <div class="radio">
-              <label for="female">Female</label>
-              <input type="radio" name="gender" id="female" />
-            </div>
-            <div class="radio">
-              <label for="male">Male</label>
-              <input type="radio" name="gender" id="male" />
-            </div>
-            <div class="radio">
-              <label for="other">Other</label>
-              <input type="radio" name="gender" id="other" />
-            </div>
-          </div>
-          <br />
-          <br />
-
-          <!-- Sign Up Button -->
-          <input type="submit" name="submit" id="btn" value="Sign Up" />
-          <br />
+    <main>
+      <!-- Gutter -->
+      <div class='gap'></div>
+      <section class='page'>
+        <!-- Logo -->
+        <div class='logo'>
+          <h1>facebook</h1>
         </div>
-      </fieldset>
-    </form>
+        <div class='fb-form'>
+          <form>
+            <h2>Create a new account</h2>
+            <p>It's quick and easy.</p>
+            <hr />
+            <!-- Ask for first and last name -->
+              <div class="name-inputs">
+                <input
+                  type="text"
+                  name="firstName"
+                  placeholder="First name"
+                  id="fN"
+                  required
+                  minlength="1"
+                  maxlength="30"
+                />
+                <input
+                  type="text"
+                  name="lastName"
+                  placeholder="Last name"
+                  id="lN"
+                  required
+                  minlength="1"
+                  maxlength="30"
+                />
+              </div>
+
+              <!-- Ask for number, email and password -->
+              <input
+                type="email"
+                name="number"
+                placeholder="Mobile number or email"
+                id="email"
+                required
+                minlength="1"
+                maxlength="30"
+              />
+              <br />
+              <input
+                type="password"
+                name="password"
+                placeholder="New Password"
+                id="pw"
+                required
+                minlength="1"
+                maxlength="10"
+              />
+              <br />
+
+              <!-- Ask for birthday -->
+              <div class="label">
+                <h5>Birthday <i class="fa-solid fa-circle-question"></i></h5>
+              </div>
+              <select name="age" value="month" required>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+              </select>
+              <select name="age" value="day" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+              <select name="age" value="year" required>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+              </select>
+              <br />
+
+              <!-- Ask for gender -->
+              <div class="label">
+                <h5>Gender <i class="fa-solid fa-circle-question"></i></h5>
+              </div>
+              <div id="radio-btns">
+                <div class="radio">
+                  <label for="female">Female</label>
+                  <input type="radio" name="gender" id="female" />
+                </div>
+                <div class="radio">
+                  <label for="male">Male</label>
+                  <input type="radio" name="gender" id="male" />
+                </div>
+                <div class="radio">
+                  <label for="other">Other</label>
+                  <input type="radio" name="gender" id="other" />
+                </div>
+              </div>
+              <br />
+              <br />
+              <!-- Sign Up Button -->
+              <input type="submit" name="submit" id="btn" value="Sign Up" />
+              <br />
+          </form>
+        </div>
+      </section>
+      <!-- Gutter -->
+      <div class='gap'></div>
+    </main>
   </body>
 </html>

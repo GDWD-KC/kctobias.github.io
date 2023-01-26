@@ -1,8 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+  font-family: "Klavika";
+  src: url("../assets/klavika-bold.otf");
+}
+
 
 body {
-  background-color: #f2f2f2;
-  font-family: "Open Sans", sans-serif;
+  background-color: #f0f2f5;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 h1,
@@ -11,6 +15,15 @@ p {
   text-align: center;
 }
 
+.logo {
+  font-family: "Klavika";
+  color:#1877f2;
+  font-size: 3em;
+  text-align: center;
+  margin-top:10%;
+}
+
+
 h5 {
   margin: 10px 0px;
 }
@@ -18,45 +31,42 @@ h5 {
 h1 {
   color: blue;
 }
-fieldset {
-  background-color: #fff;
-  text-align: center;
-  margin: 2em;
-  border-radius: 5px;
-  width: 70%;
-  padding: 0;
+
+main {
+  display:grid;
+  grid-template-columns: 30% 40% 30%;
 }
+
 
 form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 40px 00px rgba(75,75,75, 0.3);
 }
 
-.inputs {
-  padding: 10px;
-}
 
 input {
-  padding: 10px;
+  padding: 15px;
   margin: 5px;
   border-radius: 5px;
 }
 
 select {
   width: 30%;
-  padding: 10px;
+  padding: 15px;
   margin: 5px;
   border-radius: 5px;
 }
 
 .name-inputs input {
-  width: 42%;
+  width: 40%;
 }
 
 #email,
 #pw {
-  width: 91%;
+  width: 90%;
 }
 
 a {
@@ -64,13 +74,15 @@ a {
 }
 
 #btn {
-  padding: 10px 40px;
+  padding: 2% 10%;
   display: inline-block;
   margin: 15px;
   border: none;
   border-radius: 10px;
   background-color: rgb(11, 152, 28);
   color: #fff;
+  font-size: 1.4em;
+  font-weight: 800;
 }
 
 #btn:hover {
@@ -83,10 +95,11 @@ label {
 
 .radio {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: baseline;
   border: 1px gray solid;
   border-radius: 5px;
-  padding: 7px;
+  padding: 10px;
   margin: 0px 10px;
   width: 30%;
   padding-left: 15px;
@@ -110,4 +123,16 @@ select {
 #radio-btns {
   display: flex;
   justify-content: space-between;
+}
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  main {
+      grid-template-columns: 20% 60% 20%;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  main {
+      grid-template-columns: 10% 80% 10%;
+  }
 }
