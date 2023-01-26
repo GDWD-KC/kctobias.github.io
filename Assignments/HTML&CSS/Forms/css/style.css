@@ -3,7 +3,6 @@
   src: url("../assets/klavika-bold.otf");
 }
 
-
 body {
   background-color: #f0f2f5;
   font-family: "Helvetica", "Arial", sans-serif;
@@ -17,12 +16,11 @@ p {
 
 .logo {
   font-family: "Klavika";
-  color:#1877f2;
+  color: #1877f2;
   font-size: 3em;
   text-align: center;
-  margin-top:10%;
+  margin-top: 10%;
 }
-
 
 h5 {
   margin: 10px 0px;
@@ -33,19 +31,17 @@ h1 {
 }
 
 main {
-  display:grid;
-  grid-template-columns: 35% 30% 35%;
+  display: grid;
+  grid-template-columns: 30% 650px 30%;
 }
-
 
 form {
   background-color: #fff;
   text-align: center;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0px 0px 40px 00px rgba(75,75,75, 0.3);
+  box-shadow: 0px 0px 40px 00px rgba(75, 75, 75, 0.3);
 }
-
 
 input {
   padding: 15px;
@@ -127,12 +123,12 @@ select {
 /* Media Queries */
 @media screen and (max-width: 1200px) {
   main {
-      grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 20% 60% 20%;
   }
 }
 
 @media screen and (max-width: 724px) {
   main {
-      grid-template-columns: 10% 80% 10%;
+    grid-template-columns: 10% 80% 10%;
   }
 }
