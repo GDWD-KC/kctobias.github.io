@@ -34,7 +34,7 @@ h1 {
 
 main {
   display:grid;
-  grid-template-columns: 30% 40% 30%;
+  grid-template-columns: 35% 30% 35%;
 }
 
 
