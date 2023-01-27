@@ -70,8 +70,7 @@ button:hover {
 
 #eAddress:valid,
 #fullName:valid,
-#writeMessage:valid,
-select {
+#writeMessage:valid {
   border: 2px solid green;
 }
 
