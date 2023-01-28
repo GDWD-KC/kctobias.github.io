@@ -67,16 +67,24 @@ button {
 button:hover {
   background-color: rgba(62, 109, 239, 0.9);
 }
-
+/* 
 #eAddress:valid,
 #fullName:valid,
-#writeMessage:valid {
+#message:valid, select:valid {
   border: 2px solid green;
-}
+} */ */
 
-#eAddress:invalid,
+/* #eAddress:invalid,
 #fullName:invalid,
-#writeMessage:invalid,
+#message:invalid,
 select {
   border: 2px solid rgb(227, 113, 113);
+/* } */
+
+input[type="text"]:invalid {
+  border: red solid 2px;
+}
+
+input[type="text"]:valid {
+  border: green solid 2px;
 }

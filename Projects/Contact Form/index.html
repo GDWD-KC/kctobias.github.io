@@ -18,34 +18,34 @@
     </div>
     <!-- Form -->
     <div id="content">
-      <form>
+      <form action='https://getform.io/f/45a68133-9a14-4223-b5a7-8175e7043d78' method='post'>
         <br />
         <label for="help">What can we help you with?</label>
         <br />
-        <select name="help" required>
-          <option name="selection" value="" disabled selected hidden>
+        <select name="help" id='help' required>
+          <option value="" disabled selected hidden>
             Select what we can help you with
           </option>
-          <option name="customer" value="">Customer Service</option>
-          <option name="customer" value="">Customer Service</option>
-          <option name="customer" value="">Customer Service</option>
+          <option value="service">Customer Service</option>
+          <option value="questions">General Questions</option>
+          <option value="review">Leave a Review</option>
         </select>
         <br />
-        <label for="name">Name</label>
+        <label for="fullName">Name</label>
         <input
           type="text"
-          name="name"
+          name="fullName"
           id="fullName"
           required
           minlength="1"
           maxlength="30"
         />
         <br />
-        <label for="email">Email</label>
+        <label for="eAddress">Email</label>
         <br />
         <input
           type="email"
-          name="email"
+          name="eAddress"
           id="eAddress"
           required
           minlength="6"
@@ -57,7 +57,8 @@
         <textarea
           cols="50"
           rows="10"
-          id="writeMessage"
+          name='message'
+          id="message"
           required
           minlength-="1"
           maxlength="300"
