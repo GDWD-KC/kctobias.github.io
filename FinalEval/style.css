@@ -109,6 +109,7 @@ header section .blue-btn {
 }
 
 header #emailform input {
+  color: white;
   font-family: Avenir;
   font-size: 17px;
   padding: 15px 10px;
